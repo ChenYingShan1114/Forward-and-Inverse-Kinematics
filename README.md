@@ -1,3 +1,6 @@
+# &rarr; [Result](https://chenyingshan1114.github.io/projects/projects_cg/kinematics/) &larr;
+Running environment: Ubuntu 24.04.3 LTS + NVIDIA GeForce RTX 4060 Laptop GPU + Memory 32 GB
+
 # Computer Graphics – Kinematics
 
 > **To get started:** Clone this repository using
