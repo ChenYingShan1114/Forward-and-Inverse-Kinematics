@@ -10,6 +10,18 @@ double line_search(
 {
   /////////////////////////////////////////////////////////////////////////////
   // Replace with your code
-  return 0;
+  double alpha = 10000;
+  for (int i = 0; i < max_step; i++) {
+
+    Eigen::VectorXd z0 = z;
+    Eigen::VectorXd z_test = z + alpha * dz;
+    proj_z(z_test);
+
+    if (f(z_test) > f(z)) {
+      alpha = alpha / 2;
+    }
+
+  }
+  return alpha;
   /////////////////////////////////////////////////////////////////////////////
 }
