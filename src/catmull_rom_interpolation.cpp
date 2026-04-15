@@ -1,5 +1,6 @@
 #include "catmull_rom_interpolation.h"
 #include <Eigen/Dense>
+#include <iostream>
 
 // reference https://en.wikipedia.org/wiki/Catmull–Rom_spline
 Eigen::Vector3d catmull_rom_interpolation(
